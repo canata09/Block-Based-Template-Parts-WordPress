@@ -9,7 +9,7 @@
 
 ?>
 
-
+<?php block_template_part( 'hero' ); ?>
 	
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <h1>Can2</h1>
