@@ -41,7 +41,7 @@ function tt1_block_parts_setup() {
 ```
 remove_theme_support( 'block-templates' );
 ```
-5. **Exploration:** Dive into the intuitive interface, explore the features, and let your creativity run wild.
+4. **Using with Bootstrap:** Dive into the "Hero" interface, explore the features, and let your creativity run wild.
 
 ## Documentation
 https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/ <br />
