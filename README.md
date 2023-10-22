@@ -27,9 +27,25 @@ Getting started with the XYZ Plugin is a breeze:
 ## Installation
 
 Detailed installation instructions can be found in the [Installation Guide](installation_guide.md).
+1. **Setting the Groundwork:** Simply download the plugin from the official website or install it directly from your preferred IDE's marketplace.
+```
+Adding theme.json
+<?php
+add_action( 'after_setup_theme', 'tt1_block_parts_setup' );
+
+function tt1_block_parts_setup() {
+    add_theme_support( 'block-template-parts' );
+}
+```
+3. **Disabling template editor:** Use your provided license key to activate the plugin and unlock its full potential.
+```
+remove_theme_support( 'block-templates' );
+```
+5. **Exploration:** Dive into the intuitive interface, explore the features, and let your creativity run wild.
 
 ## Documentation
-
+https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/ <br />
+https://developer.wordpress.org/themes/advanced-topics/theme-json/ <br />
 For in-depth information about using the XYZ Plugin, check out our [Documentation](documentation.md) page.
 
 ## Feedback and Support
