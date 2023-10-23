@@ -37,6 +37,10 @@ function tt1_block_parts_setup() {
     add_theme_support( 'block-template-parts' );
 }
 ```
+2. **Go live in theme:** Open the theme’s header.php template and find this line of code.
+```
+<?php block_template_part( 'header' ); ?>
+```
 3. **Disabling template editor:** Use your provided license key to activate the plugin and unlock its full potential.
 ```
 remove_theme_support( 'block-templates' );
