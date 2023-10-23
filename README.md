@@ -51,6 +51,20 @@ remove_theme_support( 'block-templates' );
 https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/ <br />
 https://developer.wordpress.org/themes/advanced-topics/theme-json/ <br />
 For in-depth information about using the XYZ Plugin, check out our [Documentation](documentation.md) page.
+```
+{
+    "version": 2,
+    "settings": {
+        "layout": {
+            "contentSize": "var( --responsive--default-width )",
+            "wideSize": "var( --responsive--alignwide-width )"
+        },
+        "spacing": {
+            "blockGap": true
+        }
+    }
+}
+```
 
 ## Feedback and Support
 
