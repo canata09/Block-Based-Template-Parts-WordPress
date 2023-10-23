@@ -20,7 +20,7 @@ Block Based Template Parts WordPress is the "name" column in the "wp_terms" tabl
 
 "Header and Footer", which are block-based templating starter pages:
 
-1. **Installation:** Added appropriately in "index.php".
+1. **Installation:** Added appropriately in "page.php".
 2. **Activation:** Use your provided license key to activate the plugin and unlock its full potential.
 3. **Exploration:** Dive into the intuitive interface, explore the features, and let your creativity run wild.
 
