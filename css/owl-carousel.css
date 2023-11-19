@@ -1,0 +1,47 @@
+        .item {
+            background: cyan;
+            height: 300px;
+            padding: 10px;
+            border: 4px solid red;
+        }
+
+        .container-owl .owl-nav {
+            color: red;
+        }
+
+        .container-owl .owl-dot.active span {
+            width: 30px !important;
+            background-color: red !important;
+        }
+
+        .container-owl .owl-dot:hover span {
+            width: 30px !important;
+            background-color: red !important;
+        }
+
+        .container-owl .owl-prev,
+        .container-owl .owl-next{
+            position: absolute;
+            top: 35%;
+            font-size: 2rem !important;
+            background-color: #fff !important;
+            width: 50px;
+            height: 50px;
+        }
+
+        .container-owl .owl-prev:hover,
+        .container-owl .owl-next:hover{
+            position: absolute;
+            top: 35%;
+            font-size: 2rem !important;
+            color: black !important;
+            width: 50px;
+            height: 50px;
+        }
+
+        .container-owl .owl-prev{
+            left:0;
+        }
+        .container-owl .owl-next{
+            right:0;
+        }
