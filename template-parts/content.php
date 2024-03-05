@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package EYM_MAK
+ * @package block_theme
  */
 
 ?>
@@ -25,14 +25,14 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				eym_mak_posted_on();
-				eym_mak_posted_by();
+				block_theme_posted_on();
+				block_theme_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php eym_mak_post_thumbnail(); ?>
+	<?php block_theme_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -40,7 +40,7 @@
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'eym-mak' ),
+					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'block_theme' ),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -53,7 +53,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'eym-mak' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'block_theme' ),
 				'after'  => '</div>',
 			)
 		);
@@ -61,7 +61,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php eym_mak_entry_footer(); ?>
+		<?php block_theme_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 	
 </article><!-- #post-<?php the_ID(); ?> -->
