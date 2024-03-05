@@ -91,3 +91,63 @@ If you refresh the page in the block editor, the first thing you’ll notice is 
 }
 ```
 This is because the by adding a theme.json to the theme, the default theme.json that ships with WordPress is now activated. That theme.json does not configure the settings.layout.contentSize setting, so you need to create it.
+
+### Create custom templates
+
+To begin customizing the theme.json file, open the file in a text editor of your choice. To define a custom template, you’ll need to provide a name, title, and optionally specify the post type it applies to. Then, add the following code to the file:
+
+```
+{
+
+“version”: 1,
+
+“customTemplates”: [
+
+{
+
+“name”: “custom-template-example”,
+
+“title”: “The Custom Template Title”,
+
+“postTypes”: [
+
+“page”,
+
+“post”,
+
+“my-cpt”
+
+]
+
+}
+
+]
+
+}
+```
+
+### Create custom template parts
+
+By defining the area term in theme.json, you establish a clear and standardized way of utilizing template parts throughout your theme. This approach promotes reusability and simplifies the management of template parts, as any changes made to the area term in theme.json will automatically apply to all instances of that template part.
+
+```
+{
+
+“version”: 1,
+
+“templateParts”: [
+
+{
+
+“name: “my-template-part”,
+
+“title”: “Footer”,
+
+“area”: “footer”
+
+}
+
+]
+
+}
+```
