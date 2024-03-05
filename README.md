@@ -63,7 +63,7 @@ remove_theme_support( 'block-templates' );
 ```
 4. **Using with Bootstrap:** Dive into the "Hero" interface, explore the features, and let your creativity run wild.
 
-### Sub-section 2
+### Adding and using custom settings in theme.json
 
 Let’s add a theme.json file to the WordPress theme.
 
