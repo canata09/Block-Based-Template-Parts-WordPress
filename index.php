@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package EYM_MAK
+ * @package block_theme
  */
 
 get_header();
