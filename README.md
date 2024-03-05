@@ -8,6 +8,42 @@
   </tr>
 </table>
 
+## Banner
+
+![Banner Image](static/plugin_logo.png)
+
+## Screenshots
+
+![Screenshot 1](plugin_logo.png)
+![Screenshot 2](plugin_logo.png)
+
+## Overview
+
+Write a brief overview of your product here.
+
+## Features
+
+- Feature 1
+- Feature 2
+- Feature 3
+- ...
+
+## Requirements
+
+Definition Javascript WordPress Theme Parts is the records.
+
+## Instructions
+
+Provide step-by-step instructions on how to use your product. You might want to break this down into sub-sections if there are different parts to your product.
+
+### Sub-section 1
+
+Write a brief overview of your product here.
+
+### Sub-section 2
+
+Write a brief overview of your product here.
+
 # Welcome to the Block Based Template Parts WordPress
 
 ![Plugin Logo](plugin_logo.png)
