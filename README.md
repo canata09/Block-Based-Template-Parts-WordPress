@@ -1,3 +1,13 @@
+<table>
+  <tr>
+    <td><img src="static/icon-256x256.gif" alt="Icon" width="50"></td>
+    <td>
+      <h1>Block Based Template Parts WordPress</h1>
+      <p>Description of the product.</p>
+    </td>
+  </tr>
+</table>
+
 # Welcome to the Block Based Template Parts WordPress
 
 ![Plugin Logo](plugin_logo.png)
