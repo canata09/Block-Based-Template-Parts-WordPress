@@ -71,20 +71,23 @@ To do this, switch to a code editor like Visual Code Studio and create a new fil
 
 Next use the curly braces to start a new JSON object, and add the $schema and version keys, and their respective values.
 
-https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/ <br />
+```
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2
+}
+```
+If you refresh the page in the block editor, the first thing you’ll notice is that the editor content is slightly out of alignment.
 
 ```
 {
-    "version": 2,
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,   
     "settings": {
         "layout": {
-            "contentSize": "var( --responsive--default-width )",
-            "wideSize": "var( --responsive--alignwide-width )"
-        },
-        "spacing": {
-            "blockGap": true
+            "contentSize": "650"
         }
     }
 }
 ```
-https://developer.wordpress.org/themes/advanced-topics/theme-json/ <br />
+This is because the by adding a theme.json to the theme, the default theme.json that ships with WordPress is now activated. That theme.json does not configure the settings.layout.contentSize setting, so you need to create it.
