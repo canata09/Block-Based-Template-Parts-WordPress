@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package EYM_MAK
+ * @package block_theme
  */
 
 /**
@@ -14,7 +14,7 @@
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function eym_mak_setup() {
+function block_theme_setup() {
 
 	
 	/**
@@ -24,7 +24,7 @@ function eym_mak_setup() {
 	add_theme_support( 'block-template-parts' );
 	
 }
-add_action( 'after_setup_theme', 'eym_mak_setup' );
+add_action( 'after_setup_theme', 'block_theme_setup' );
 
 
 
