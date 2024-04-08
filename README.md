@@ -12,26 +12,6 @@
 
 ![Banner Image](static/plugin_logo.png)
 
-## Screenshots
-
-![Screenshot 1](plugin_logo.png)
-![Screenshot 2](plugin_logo.png)
-
-## Overview
-
-Write a brief overview of your product here.
-
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-- ...
-
-## Requirements
-
-Definition Javascript WordPress Theme Parts is the records.
-
 ## Instructions
 
 "Header and Footer", which are block-based templating starter pages:
